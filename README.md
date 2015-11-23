@@ -1,2 +1,3 @@
 # middleware-runner
-A simple container aware invokable middleware runner based on Relay Runner. 
+
+A simple PSR container aware invokable middleware runner based on Relay Runner.
