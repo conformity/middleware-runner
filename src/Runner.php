@@ -1,4 +1,4 @@
-<?php namespace Conformity\MiddlewareRunner;
+<?php namespace Ecfectus\MiddlewareRunner;
 
 use Interop\Container\ContainerInterface;
 use Psr\Http\Message\RequestInterface;

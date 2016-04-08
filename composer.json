@@ -1,7 +1,7 @@
 {
-    "name": "conformity/middleware-runner",
+    "name": "ecfectus/middleware-runner",
     "description": "A simple PSR container aware invokable middleware runner based on Relay Runner",
-    "homepage": "https://github.com/conformity/middleware-runner",
+    "homepage": "https://github.com/ecfectus/middleware-runner",
     "license": "MIT",
     "authors": [
         {
@@ -16,17 +16,17 @@
     "require-dev": {
         "phpunit/phpunit" : "4.*",
         "fabpot/php-cs-fixer": "~1.10",
-        "conformity/container": "dev-master",
-        "conformity/http-message": "dev-master"
+        "ecfectus/container": "dev-master",
+        "ecfectus/http-message": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "Conformity\\MiddlewareRunner\\": "src"
+            "Ecfectus\\MiddlewareRunner\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Conformity\\MiddlewareRunner\\Test\\": "tests"
+            "Ecfectus\\MiddlewareRunner\\Test\\": "tests"
         }
     }
 }

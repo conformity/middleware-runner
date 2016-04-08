@@ -1,11 +1,11 @@
 <?php
-namespace Conformity\MiddlewareRunner\Test;
+namespace Ecfectus\MiddlewareRunner\Test;
 
-use Conformity\Container\Container;
-use Conformity\Container\ReflectionContainer;
-use Conformity\Http\Message\Response;
-use Conformity\Http\Message\ServerRequestFactory;
-use Conformity\MiddlewareRunner\Runner;
+use Ecfectus\Container\Container;
+use Ecfectus\Container\ReflectionContainer;
+use Ecfectus\Http\Message\Response;
+use Ecfectus\Http\Message\ServerRequestFactory;
+use Ecfectus\MiddlewareRunner\Runner;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 

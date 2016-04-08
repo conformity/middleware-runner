@@ -36,16 +36,16 @@
     ],
     "packages-dev": [
         {
-            "name": "conformity/container",
+            "name": "ecfectus/container",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/conformity/container.git",
+                "url": "https://github.com/ecfectus/container.git",
                 "reference": "d3650a27b0fecf45be4dc9f9afa84ae0274b4a23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/conformity/container/zipball/d3650a27b0fecf45be4dc9f9afa84ae0274b4a23",
+                "url": "https://api.github.com/repos/ecfectus/container/zipball/d3650a27b0fecf45be4dc9f9afa84ae0274b4a23",
                 "reference": "d3650a27b0fecf45be4dc9f9afa84ae0274b4a23",
                 "shasum": ""
             },
@@ -63,7 +63,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Conformity\\Container\\": "src"
+                    "Ecfectus\\Container\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -77,20 +77,20 @@
                 }
             ],
             "description": "Lean PSR11 compatible dependency injection container",
-            "homepage": "https://github.com/conformity/container",
+            "homepage": "https://github.com/ecfectus/container",
             "time": "2015-11-23 11:48:30"
         },
         {
-            "name": "conformity/http-message",
+            "name": "ecfectus/http-message",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/conformity/http-message.git",
+                "url": "https://github.com/ecfectus/http-message.git",
                 "reference": "fdd69dcecc8bd21deb0e14671e16bb7597852e3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/conformity/http-message/zipball/fdd69dcecc8bd21deb0e14671e16bb7597852e3f",
+                "url": "https://api.github.com/repos/ecfectus/http-message/zipball/fdd69dcecc8bd21deb0e14671e16bb7597852e3f",
                 "reference": "fdd69dcecc8bd21deb0e14671e16bb7597852e3f",
                 "shasum": ""
             },
@@ -108,7 +108,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Conformity\\Http\\Message\\": "src"
+                    "Ecfectus\\Http\\Message\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -116,7 +116,7 @@
                 "MIT"
             ],
             "description": "A PSR7 Compliant http-message implementation",
-            "homepage": "https://github.com/conformity/http-message",
+            "homepage": "https://github.com/ecfectus/http-message",
             "keywords": [
                 "http",
                 "psr",
@@ -1497,8 +1497,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "conformity/container": 20,
-        "conformity/http-message": 20
+        "ecfectus/container": 20,
+        "ecfectus/http-message": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

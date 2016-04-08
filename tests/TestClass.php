@@ -1,6 +1,6 @@
 <?php
 
-namespace Conformity\MiddlewareRunner\Test;
+namespace Ecfectus\MiddlewareRunner\Test;
 
 
 use Psr\Http\Message\RequestInterface;
